@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865DA5E21A464EBC00315E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DA5E11A464EBC00315E71 /* AppDelegate.swift */; };
+		865DA5E41A464EBC00315E71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DA5E31A464EBC00315E71 /* FirstViewController.swift */; };
+		865DA5E61A464EBC00315E71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DA5E51A464EBC00315E71 /* SecondViewController.swift */; };
+		865DA5E91A464EBC00315E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865DA5E71A464EBC00315E71 /* Main.storyboard */; };
+		865DA5EB1A464EBC00315E71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865DA5EA1A464EBC00315E71 /* Images.xcassets */; };
+		865DA5EE1A464EBC00315E71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865DA5EC1A464EBC00315E71 /* LaunchScreen.xib */; };
+		865DA5FA1A464EBC00315E71 /* Treadmill_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DA5F91A464EBC00315E71 /* Treadmill_AssistantTests.swift */; };
+		865DA6071A46532600315E71 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DA6061A46532600315E71 /* Bridge.m */; };
+		865DA6091A46540200315E71 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865DA6081A46540200315E71 /* TelerikUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		865DA5F41A464EBC00315E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865DA5D41A464EBC00315E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865DA5DB1A464EBC00315E71;
+			remoteInfo = "Treadmill Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		865DA5DC1A464EBC00315E71 /* Treadmill Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treadmill Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DA5E01A464EBC00315E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865DA5E11A464EBC00315E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		865DA5E31A464EBC00315E71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		865DA5E51A464EBC00315E71 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		865DA5E81A464EBC00315E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		865DA5EA1A464EBC00315E71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		865DA5ED1A464EBC00315E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		865DA5F31A464EBC00315E71 /* Treadmill AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treadmill AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DA5F81A464EBC00315E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865DA5F91A464EBC00315E71 /* Treadmill_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treadmill_AssistantTests.swift; sourceTree = "<group>"; };
+		865DA6051A46532600315E71 /* Treadmill Assistant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Treadmill Assistant-Bridging-Header.h"; path = "Treadmill Assistant/Treadmill Assistant-Bridging-Header.h"; sourceTree = "<group>"; };
+		865DA6061A46532600315E71 /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bridge.m; path = "Treadmill Assistant/Bridge.m"; sourceTree = "<group>"; };
+		865DA6081A46540200315E71 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = Library/Frameworks/TelerikUI.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865DA5D91A464EBC00315E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DA6091A46540200315E71 /* TelerikUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DA5F01A464EBC00315E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865DA5D31A464EBC00315E71 = {
+			isa = PBXGroup;
+			children = (
+				865DA60C1A4B92AF00315E71 /* Bridge */,
+				865DA60A1A4B926F00315E71 /* Framework */,
+				865DA5DE1A464EBC00315E71 /* Treadmill Assistant */,
+				865DA5F61A464EBC00315E71 /* Treadmill AssistantTests */,
+				865DA5DD1A464EBC00315E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865DA5DD1A464EBC00315E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865DA5DC1A464EBC00315E71 /* Treadmill Assistant.app */,
+				865DA5F31A464EBC00315E71 /* Treadmill AssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865DA5DE1A464EBC00315E71 /* Treadmill Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				865DA5E11A464EBC00315E71 /* AppDelegate.swift */,
+				865DA5E31A464EBC00315E71 /* FirstViewController.swift */,
+				865DA5E51A464EBC00315E71 /* SecondViewController.swift */,
+				865DA5E71A464EBC00315E71 /* Main.storyboard */,
+				865DA5EA1A464EBC00315E71 /* Images.xcassets */,
+				865DA5EC1A464EBC00315E71 /* LaunchScreen.xib */,
+				865DA5DF1A464EBC00315E71 /* Supporting Files */,
+			);
+			path = "Treadmill Assistant";
+			sourceTree = "<group>";
+		};
+		865DA5DF1A464EBC00315E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				865DA5E01A464EBC00315E71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		865DA5F61A464EBC00315E71 /* Treadmill AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				865DA5F91A464EBC00315E71 /* Treadmill_AssistantTests.swift */,
+				865DA5F71A464EBC00315E71 /* Supporting Files */,
+			);
+			path = "Treadmill AssistantTests";
+			sourceTree = "<group>";
+		};
+		865DA5F71A464EBC00315E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				865DA5F81A464EBC00315E71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		865DA60A1A4B926F00315E71 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				865DA6081A46540200315E71 /* TelerikUI.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		865DA60C1A4B92AF00315E71 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				865DA6061A46532600315E71 /* Bridge.m */,
+				865DA6051A46532600315E71 /* Treadmill Assistant-Bridging-Header.h */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865DA5DB1A464EBC00315E71 /* Treadmill Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DA5FD1A464EBC00315E71 /* Build configuration list for PBXNativeTarget "Treadmill Assistant" */;
+			buildPhases = (
+				865DA5D81A464EBC00315E71 /* Sources */,
+				865DA5D91A464EBC00315E71 /* Frameworks */,
+				865DA5DA1A464EBC00315E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treadmill Assistant";
+			productName = "Treadmill Assistant";
+			productReference = 865DA5DC1A464EBC00315E71 /* Treadmill Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		865DA5F21A464EBC00315E71 /* Treadmill AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DA6001A464EBC00315E71 /* Build configuration list for PBXNativeTarget "Treadmill AssistantTests" */;
+			buildPhases = (
+				865DA5EF1A464EBC00315E71 /* Sources */,
+				865DA5F01A464EBC00315E71 /* Frameworks */,
+				865DA5F11A464EBC00315E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865DA5F51A464EBC00315E71 /* PBXTargetDependency */,
+			);
+			name = "Treadmill AssistantTests";
+			productName = "Treadmill AssistantTests";
+			productReference = 865DA5F31A464EBC00315E71 /* Treadmill AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865DA5D41A464EBC00315E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michael Crump";
+				TargetAttributes = {
+					865DA5DB1A464EBC00315E71 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					865DA5F21A464EBC00315E71 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 865DA5DB1A464EBC00315E71;
+					};
+				};
+			};
+			buildConfigurationList = 865DA5D71A464EBC00315E71 /* Build configuration list for PBXProject "Treadmill Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865DA5D31A464EBC00315E71;
+			productRefGroup = 865DA5DD1A464EBC00315E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865DA5DB1A464EBC00315E71 /* Treadmill Assistant */,
+				865DA5F21A464EBC00315E71 /* Treadmill AssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865DA5DA1A464EBC00315E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DA5E91A464EBC00315E71 /* Main.storyboard in Resources */,
+				865DA5EE1A464EBC00315E71 /* LaunchScreen.xib in Resources */,
+				865DA5EB1A464EBC00315E71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DA5F11A464EBC00315E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865DA5D81A464EBC00315E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DA6071A46532600315E71 /* Bridge.m in Sources */,
+				865DA5E61A464EBC00315E71 /* SecondViewController.swift in Sources */,
+				865DA5E21A464EBC00315E71 /* AppDelegate.swift in Sources */,
+				865DA5E41A464EBC00315E71 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DA5EF1A464EBC00315E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DA5FA1A464EBC00315E71 /* Treadmill_AssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865DA5F51A464EBC00315E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865DA5DB1A464EBC00315E71 /* Treadmill Assistant */;
+			targetProxy = 865DA5F41A464EBC00315E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		865DA5E71A464EBC00315E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865DA5E81A464EBC00315E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		865DA5EC1A464EBC00315E71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865DA5ED1A464EBC00315E71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865DA5FB1A464EBC00315E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865DA5FC1A464EBC00315E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865DA5FE1A464EBC00315E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "Treadmill Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Treadmill Assistant/Treadmill Assistant-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865DA5FF1A464EBC00315E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "Treadmill Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Treadmill Assistant/Treadmill Assistant-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		865DA6011A464EBC00315E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Treadmill AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treadmill Assistant.app/Treadmill Assistant";
+			};
+			name = Debug;
+		};
+		865DA6021A464EBC00315E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Treadmill AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treadmill Assistant.app/Treadmill Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865DA5D71A464EBC00315E71 /* Build configuration list for PBXProject "Treadmill Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DA5FB1A464EBC00315E71 /* Debug */,
+				865DA5FC1A464EBC00315E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DA5FD1A464EBC00315E71 /* Build configuration list for PBXNativeTarget "Treadmill Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DA5FE1A464EBC00315E71 /* Debug */,
+				865DA5FF1A464EBC00315E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DA6001A464EBC00315E71 /* Build configuration list for PBXNativeTarget "Treadmill AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DA6011A464EBC00315E71 /* Debug */,
+				865DA6021A464EBC00315E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865DA5D41A464EBC00315E71 /* Project object */;
+}
