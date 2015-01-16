@@ -16,6 +16,8 @@
 		865DA5FA1A464EBC00315E71 /* Treadmill_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DA5F91A464EBC00315E71 /* Treadmill_AssistantTests.swift */; };
 		865DA6071A46532600315E71 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DA6061A46532600315E71 /* Bridge.m */; };
 		865DA6091A46540200315E71 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865DA6081A46540200315E71 /* TelerikUI.framework */; };
+		865DA6101A534FF500315E71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865DA60F1A534FF500315E71 /* CoreData.framework */; };
+		865DA6131A538FBA00315E71 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 865DA6111A538FBA00315E71 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		865DA6051A46532600315E71 /* Treadmill Assistant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Treadmill Assistant-Bridging-Header.h"; path = "Treadmill Assistant/Treadmill Assistant-Bridging-Header.h"; sourceTree = "<group>"; };
 		865DA6061A46532600315E71 /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bridge.m; path = "Treadmill Assistant/Bridge.m"; sourceTree = "<group>"; };
 		865DA6081A46540200315E71 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = Library/Frameworks/TelerikUI.framework; sourceTree = DEVELOPER_DIR; };
+		865DA60F1A534FF500315E71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		865DA6121A538FBA00315E71 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865DA6101A534FF500315E71 /* CoreData.framework in Frameworks */,
 				865DA6091A46540200315E71 /* TelerikUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +97,7 @@
 				865DA5E51A464EBC00315E71 /* SecondViewController.swift */,
 				865DA5E71A464EBC00315E71 /* Main.storyboard */,
 				865DA5EA1A464EBC00315E71 /* Images.xcassets */,
+				865DA6111A538FBA00315E71 /* Model.xcdatamodeld */,
 				865DA5EC1A464EBC00315E71 /* LaunchScreen.xib */,
 				865DA5DF1A464EBC00315E71 /* Supporting Files */,
 			);
@@ -126,6 +132,7 @@
 		865DA60A1A4B926F00315E71 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				865DA60F1A534FF500315E71 /* CoreData.framework */,
 				865DA6081A46540200315E71 /* TelerikUI.framework */,
 			);
 			name = Framework;
@@ -242,6 +249,7 @@
 			files = (
 				865DA6071A46532600315E71 /* Bridge.m in Sources */,
 				865DA5E61A464EBC00315E71 /* SecondViewController.swift in Sources */,
+				865DA6131A538FBA00315E71 /* Model.xcdatamodeld in Sources */,
 				865DA5E21A464EBC00315E71 /* AppDelegate.swift in Sources */,
 				865DA5E41A464EBC00315E71 /* FirstViewController.swift in Sources */,
 			);
@@ -460,6 +468,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		865DA6111A538FBA00315E71 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				865DA6121A538FBA00315E71 /* Model.xcdatamodel */,
+			);
+			currentVersion = 865DA6121A538FBA00315E71 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 865DA5D41A464EBC00315E71 /* Project object */;
 }

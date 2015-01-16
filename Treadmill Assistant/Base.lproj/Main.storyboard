@@ -43,7 +43,83 @@
                     <view key="view" contentMode="scaleToFill" id="Bup-RT-kdE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance (Miles) : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqO-XK-NZH">
+                                <rect key="frame" x="118" y="100" width="131" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="YhJ-26-pqf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UM0-rq-A0n">
+                                <rect key="frame" x="118" y="146" width="121" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="Ddi-3r-16j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTg-LV-WY6">
+                                <rect key="frame" x="118" y="340" width="72" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="FZJ-dp-Hy7"/>
+                                    <constraint firstAttribute="height" constant="21" id="jYO-1m-eEg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="SKw-E2-fsJ">
+                                <rect key="frame" x="278" y="104" width="127" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="127" id="uU1-0f-MEb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="GuU-rp-ZGJ">
+                                <rect key="frame" x="118" y="170" width="365" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="365" id="BRe-kq-BIH"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="443129020.41195899">
+                                    <!--2015-01-16 19:23:40 +0000-->
+                                </date>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="rqW-4p-Zwz">
+                                <rect key="frame" x="118" y="361" width="365" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="443128930.859227">
+                                    <!--2015-01-16 19:22:10 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                                    <!--1970-01-01 11:00:00 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="1167562800">
+                                    <!--2037-12-31 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GuU-rp-ZGJ" firstAttribute="trailing" secondItem="rqW-4p-Zwz" secondAttribute="trailing" id="1fl-Ix-ggl"/>
+                            <constraint firstItem="GuU-rp-ZGJ" firstAttribute="top" secondItem="SKw-E2-fsJ" secondAttribute="bottom" constant="36" id="36r-Gg-nqG"/>
+                            <constraint firstItem="OTg-LV-WY6" firstAttribute="top" secondItem="GuU-rp-ZGJ" secondAttribute="bottom" constant="8" symbolic="YES" id="9RF-Jf-2jO"/>
+                            <constraint firstItem="rqW-4p-Zwz" firstAttribute="top" secondItem="OTg-LV-WY6" secondAttribute="bottom" constant="9" id="DUq-Ng-6K1"/>
+                            <constraint firstItem="GuU-rp-ZGJ" firstAttribute="leading" secondItem="UM0-rq-A0n" secondAttribute="leading" id="KFV-2o-xiM"/>
+                            <constraint firstItem="GuU-rp-ZGJ" firstAttribute="top" secondItem="UM0-rq-A0n" secondAttribute="bottom" constant="3" id="Np0-Ax-Diz"/>
+                            <constraint firstItem="rqW-4p-Zwz" firstAttribute="leading" secondItem="OTg-LV-WY6" secondAttribute="leading" id="SMP-em-CYI"/>
+                            <constraint firstItem="SKw-E2-fsJ" firstAttribute="leading" secondItem="fqO-XK-NZH" secondAttribute="trailing" constant="29" id="T4z-fK-BMV"/>
+                            <constraint firstItem="OTg-LV-WY6" firstAttribute="leading" secondItem="GuU-rp-ZGJ" secondAttribute="leading" id="UKG-Jm-TQi"/>
+                            <constraint firstItem="SKw-E2-fsJ" firstAttribute="top" secondItem="JhF-Sf-4DO" secondAttribute="bottom" constant="40" id="XVR-wd-Ovu"/>
+                            <constraint firstItem="fqO-XK-NZH" firstAttribute="centerY" secondItem="SKw-E2-fsJ" secondAttribute="centerY" id="cYj-69-QB6"/>
+                            <constraint firstItem="fqO-XK-NZH" firstAttribute="top" secondItem="JhF-Sf-4DO" secondAttribute="bottom" constant="36" id="dwT-Xr-UXT"/>
+                            <constraint firstItem="UM0-rq-A0n" firstAttribute="top" secondItem="fqO-XK-NZH" secondAttribute="bottom" constant="8" symbolic="YES" id="qex-30-Uqy"/>
+                            <constraint firstItem="fqO-XK-NZH" firstAttribute="leading" secondItem="UM0-rq-A0n" secondAttribute="leading" id="vwR-Zy-Zyy"/>
+                            <constraint firstItem="GuU-rp-ZGJ" firstAttribute="centerX" secondItem="Bup-RT-kdE" secondAttribute="centerX" id="zlf-hE-Ii8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Run" id="6hp-WL-BjB">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="9nR-4p-ZHD">
@@ -142,6 +218,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RJ3-QV-gWs"/>
+        <segue reference="5vh-oA-CnS"/>
     </inferredMetricsTieBreakers>
 </document>
